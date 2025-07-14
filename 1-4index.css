@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+}
+
+header {
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: dodgerblue;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 0;
+}
+
+#leftColumn {
+  float: left;
+  width: 60%;
+}
+
+#rightColumn {
+  float: right;
+  width: 35%;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+}
