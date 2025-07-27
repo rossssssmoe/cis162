@@ -1,0 +1,53 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, footer {
+  background-color: #1e90ff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+form label, form input, form textarea, form select {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+form input, form textarea, form select {
+  padding: 8px;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 240px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
